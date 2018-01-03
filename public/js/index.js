@@ -9,6 +9,6 @@ socket.on('disconnect', function () {
 });
 
 //custom events
-socket.on('newMessage', function (message) {
-    console.log('New message', message);
+socket.on('newMessage', function (newMessage) {
+    console.log('New message', newMessage);
 });
